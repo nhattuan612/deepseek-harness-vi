@@ -20,7 +20,7 @@ const bundle = `window.__ModuleLoader__.load({
 \t\tvar exports = module.exports;
 \t\tObject.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 \t\tconst dictionaries = ${JSON.stringify(dictionaries)};
-${implementation.split('\n').map(line => `\t\t${line}`).join('\n')}
+${implementation.split('\n').map(line => line.trim() ? `\t\t${line}` : '').join('\n')}
 \t\texports.apply = apply;
 \t\texports.inject = inject;
 \t\treturn module.exports;

@@ -31,7 +31,23 @@ function harness(failAt = Infinity) {
       register(namespace, locale, dictionary) {
         if (registered.length === failAt) throw new Error('registration failed')
         assert.equal(locale, 'vi')
-        assert.equal(JSON.stringify(dictionary), JSON.stringify(dictionaries[namespace]))
+        const expected = { ...dictionaries[namespace] }
+        const aliases = {
+          'settings.theme': {
+            'fontSize.title': 'fontSize.text.title',
+            'fontSize.description': 'fontSize.text.description',
+            'fontSize.increase': 'fontSize.text.increase',
+            'fontSize.decrease': 'fontSize.text.decrease',
+          },
+          'session-log-download': { 'header.action': 'menu.download' },
+        }[namespace]
+        if (aliases) {
+          for (const [key, source] of Object.entries(aliases)) {
+            assert.equal(typeof expected[source], 'string', `${namespace}:${source} is required by DSH 0.1.2`)
+            expected[key] = expected[source]
+          }
+        }
+        assert.equal(JSON.stringify(dictionary), JSON.stringify(expected))
         registered.push(namespace)
         return () => { released++ }
       },
