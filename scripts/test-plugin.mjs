@@ -25,7 +25,7 @@ function harness(failAt = Infinity) {
     effect(run) { this.dispose = run() },
     locale: {
       addLanguage(language) {
-        assert.deepEqual(language, { id: 'vi', label: 'Tiếng Việt', fallback: 'en' })
+        assert.equal(JSON.stringify(language), JSON.stringify({ id: 'vi', label: 'Tiếng Việt', fallback: 'en' }))
         return () => { released++ }
       },
       register(namespace, locale, dictionary) {
