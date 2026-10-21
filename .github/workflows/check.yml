@@ -17,4 +17,3 @@ jobs:
           path: upstream
       - run: bun run check
       - run: bun run check:upstream -- upstream
-      - run: bun run check:docs -- upstream
