@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict'
 import { readFile } from 'node:fs/promises'
 import { apply as applyHost } from '../index.js'
-import { apply } from '../src/client/index.js'
+import { runInNewContext } from 'node:vm'
 import dictionaries from '../catalog/vi.json' with { type: 'json' }
 
 const manifest = JSON.parse(await readFile(new URL('../package.json', import.meta.url), 'utf8'))
@@ -10,6 +10,13 @@ assert.ok(manifest.files.includes('cordis.patch.yml'))
 assert.equal(manifest.exports['./cordis.patch.yml'], './cordis.patch.yml')
 assert.match(await readFile(new URL('../cordis.patch.yml', import.meta.url), 'utf8'), /name: deepseek-harness-vi/)
 assert.doesNotThrow(() => applyHost({}))
+const registrations = []
+runInNewContext(await readFile(new URL('../lib/client.js', import.meta.url), 'utf8'), {
+  window: { __ModuleLoader__: { load: registration => registrations.push(registration) } },
+})
+assert.equal(registrations.length, 1)
+assert.equal(registrations[0].id, 'deepseek-harness-vi')
+const { apply } = registrations[0].factory(() => { throw new Error('unexpected import') })
 
 function harness(failAt = Infinity) {
   const registered = []
@@ -24,7 +31,7 @@ function harness(failAt = Infinity) {
       register(namespace, locale, dictionary) {
         if (registered.length === failAt) throw new Error('registration failed')
         assert.equal(locale, 'vi')
-        assert.deepEqual(dictionary, dictionaries[namespace])
+        assert.equal(JSON.stringify(dictionary), JSON.stringify(dictionaries[namespace]))
         registered.push(namespace)
         return () => { released++ }
       },

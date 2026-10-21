@@ -6,7 +6,7 @@
   "main": "./index.js",
   "exports": {
     ".": "./index.js",
-    "./client": "./src/client/index.js",
+    "./client": "./lib/client.js",
     "./cordis.patch.yml": "./cordis.patch.yml",
     "./locale/*.json": "./locale/*.json",
     "./package.json": "./package.json"
@@ -29,10 +29,11 @@
   },
   "license": "MIT",
   "repository": "git+https://github.com/nhattuan612/deepseek-harness-vi.git",
-  "files": ["index.js", "src/client/index.js", "cordis.patch.yml", "catalog/vi.json", "locale/*.json"],
+  "files": ["index.js", "lib/client.js", "cordis.patch.yml", "catalog/vi.json", "locale/*.json"],
   "scripts": {
-    "build:catalog": "bun scripts/build-catalog.mjs",
-    "check": "bun scripts/build-catalog.mjs --check && bun scripts/test-plugin.mjs",
+    "build:catalog": "bun scripts/build-catalog.mjs && bun scripts/build-client.mjs",
+    "build:client": "bun scripts/build-client.mjs",
+    "check": "bun scripts/build-catalog.mjs --check && bun scripts/build-client.mjs --check && bun scripts/test-plugin.mjs",
     "check:upstream": "bun scripts/check-upstream.mjs"
   }
 }
