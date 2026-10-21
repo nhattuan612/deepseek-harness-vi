@@ -6,10 +6,18 @@ Gói ngôn ngữ native cho giao diện Web của DeepSeek Harness. Gói đăng 
 
 ```sh
 dsh plugin --profile web add github:nhattuan612/deepseek-harness-vi
+```
+
+Sau khi cài, khởi động lại profile Web bằng `dsh web`. Trong giao diện, vào **Settings → General → Language** và chọn **Tiếng Việt**.
+
+## Cập nhật
+
+```sh
+dsh plugin --profile web update deepseek-harness-vi
 dsh web
 ```
 
-Trong giao diện Web, vào **Settings → General → Language** và chọn **Tiếng Việt**.
+Khởi động lại profile Web sau mỗi lần cập nhật để nạp bản dịch mới.
 
 ## Phạm vi
 
