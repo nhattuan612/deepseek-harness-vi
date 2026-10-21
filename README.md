@@ -14,6 +14,12 @@ Plugin đăng ký catalog `vi` qua API locale native của DeepSeek Harness. Gó
 - Giữ nguyên ngôn ngữ nội dung hội thoại, câu trả lời của mô hình và đầu ra CLI.
 - Có CI kiểm tra catalog và tác vụ hằng ngày phát hiện thay đổi chuỗi/khóa từ upstream.
 
+## Giao diện tiếng Việt
+
+| Cài đặt | Chế độ tác tử |
+| --- | --- |
+| <img src="docs/images/cai-dat-tieng-viet.png" alt="Màn hình cài đặt DeepSeek Harness bằng tiếng Việt" width="100%"> | <img src="docs/images/che-do-tac-tu-tieng-viet.png" alt="Danh sách chế độ tác tử DeepSeek Harness bằng tiếng Việt" width="100%"> |
+
 ## Cài đặt
 
 Yêu cầu Node.js `>=22` và DeepSeek Harness CLI. Lệnh dưới đây cài plugin vào profile `web`; thay `web` bằng tên profile bạn đang sử dụng nếu khác.
