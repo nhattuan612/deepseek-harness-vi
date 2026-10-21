@@ -1,0 +1,673 @@
+[
+  {
+    "namespace": "common",
+    "file": "packages/client/locale/src/client/index.ts",
+    "call": "COMMON_NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/locale/src/client/index.ts",
+      "name": "COMMON_NS",
+      "value": "common"
+    }
+  },
+  {
+    "namespace": "settings.locale",
+    "file": "packages/client/locale/src/client/index.ts",
+    "call": "SETTINGS_NS, { zh: settingsZh, en: settingsEn }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/locale/src/client/index.ts",
+      "name": "SETTINGS_NS",
+      "value": "settings.locale"
+    }
+  },
+  {
+    "namespace": "settings.agentPreset",
+    "file": "packages/client/ui-agent-preset/src/client/index.ts",
+    "call": "'settings.agentPreset', { zh, en }",
+    "namespaceRef": {
+      "kind": "literal",
+      "value": "settings.agentPreset"
+    }
+  },
+  {
+    "namespace": "approval",
+    "file": "packages/client/ui-approval/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-approval/src/client/index.ts",
+      "name": "NS",
+      "value": "approval"
+    }
+  },
+  {
+    "namespace": "chat",
+    "file": "packages/client/ui-chat/src/client/apply.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/client/ui-chat/src/client/locale.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "command",
+    "file": "packages/client/ui-commands/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-commands/src/client/index.ts",
+      "name": "NS",
+      "value": "command"
+    }
+  },
+  {
+    "namespace": "conversation",
+    "file": "packages/client/ui-conversation/src/client/apply.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/client/ui-conversation/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "deepseek-model-label-1017",
+    "file": "packages/client/ui-deepseek-model-label-1017/src/client/index.ts",
+    "call": "namespace, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-deepseek-model-label-1017/src/client/index.ts",
+      "name": "namespace",
+      "value": "deepseek-model-label-1017"
+    }
+  },
+  {
+    "namespace": "deliverables",
+    "file": "packages/client/ui-deliverables/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/client/ui-deliverables/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "directory-browser",
+    "file": "packages/client/ui-directory-picker-browse/src/client/index.ts",
+    "call": "LOCALE_NS, locale, dict",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-directory-picker-browse/src/client/index.ts",
+      "name": "LOCALE_NS",
+      "value": "directory-browser"
+    }
+  },
+  {
+    "namespace": "goal",
+    "file": "packages/client/ui-goal/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-goal/src/client/index.ts",
+      "name": "NS",
+      "value": "goal"
+    }
+  },
+  {
+    "namespace": "slash.menu",
+    "file": "packages/client/ui-input-trigger/src/client/index.ts",
+    "call": "MENU_NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-input-trigger/src/client/index.ts",
+      "name": "MENU_NS",
+      "value": "slash.menu"
+    }
+  },
+  {
+    "namespace": "job",
+    "file": "packages/client/ui-jobs/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/client/ui-jobs/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "shortcuts.layout",
+    "file": "packages/client/ui-layout/src/client/index.ts",
+    "call": "'shortcuts.layout', { zh, en }",
+    "namespaceRef": {
+      "kind": "literal",
+      "value": "shortcuts.layout"
+    }
+  },
+  {
+    "namespace": "feedback",
+    "file": "packages/client/ui-message-feedback/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-message-feedback/src/client/index.ts",
+      "name": "NS",
+      "value": "feedback"
+    }
+  },
+  {
+    "namespace": "model",
+    "file": "packages/client/ui-model-selection/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-model-selection/src/client/index.ts",
+      "name": "NS",
+      "value": "model"
+    }
+  },
+  {
+    "namespace": "open-in-app",
+    "file": "packages/client/ui-open-in-app/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/client/ui-open-in-app/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "permission.access",
+    "file": "packages/client/ui-permission-presets/src/client/index.ts",
+    "call": "PERMISSION_ACCESS_NS, { zh: accessZh, en: accessEn }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/client/ui-permission-presets/src/client/locales.ts",
+      "name": "PERMISSION_ACCESS_NS"
+    }
+  },
+  {
+    "namespace": "settings.permission",
+    "file": "packages/client/ui-permission-presets/src/client/index.ts",
+    "call": "'settings.permission', { zh, en }",
+    "namespaceRef": {
+      "kind": "literal",
+      "value": "settings.permission"
+    }
+  },
+  {
+    "namespace": "plan",
+    "file": "packages/client/ui-plan/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-plan/src/client/index.ts",
+      "name": "NS",
+      "value": "plan"
+    }
+  },
+  {
+    "namespace": "pluginManager",
+    "file": "packages/client/ui-plugin-manager/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-plugin-manager/src/client/index.ts",
+      "name": "NS",
+      "value": "pluginManager"
+    }
+  },
+  {
+    "namespace": "pluginMarket",
+    "file": "packages/client/ui-plugin-market/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-plugin-market/src/client/index.ts",
+      "name": "NS",
+      "value": "pluginMarket"
+    }
+  },
+  {
+    "namespace": "reference",
+    "file": "packages/client/ui-reference/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/client/ui-reference/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "schedule.catalog",
+    "file": "packages/client/ui-schedule/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/client/ui-schedule/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "schedule.manager",
+    "file": "packages/client/ui-schedule/src/client/index.ts",
+    "call": "MANAGER_NS, { zh: managerZh, en: managerEn }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-schedule/src/client/index.ts",
+      "name": "MANAGER_NS",
+      "value": "schedule.manager"
+    }
+  },
+  {
+    "namespace": "secretMask",
+    "file": "packages/client/ui-secret-mask/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/client/ui-secret-mask/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "settings.account",
+    "file": "packages/client/ui-settings-account/src/client/index.ts",
+    "call": "'settings.account', { en, zh }",
+    "namespaceRef": {
+      "kind": "literal",
+      "value": "settings.account"
+    }
+  },
+  {
+    "namespace": "settings.agentLoop",
+    "file": "packages/client/ui-settings-agent-loop/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-settings-agent-loop/src/client/index.ts",
+      "name": "NS",
+      "value": "settings.agentLoop"
+    }
+  },
+  {
+    "namespace": "settings",
+    "file": "packages/client/ui-settings-general/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-settings-general/src/client/index.ts",
+      "name": "NS",
+      "value": "settings"
+    }
+  },
+  {
+    "namespace": "settings.models",
+    "file": "packages/client/ui-settings-models/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-settings-models/src/client/index.ts",
+      "name": "NS",
+      "value": "settings.models"
+    }
+  },
+  {
+    "namespace": "settings.pluginInventory",
+    "file": "packages/client/ui-settings-plugin-inventory/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-settings-plugin-inventory/src/client/index.ts",
+      "name": "NS",
+      "value": "settings.pluginInventory"
+    }
+  },
+  {
+    "namespace": "settings.plugins",
+    "file": "packages/client/ui-settings-plugins/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-settings-plugins/src/client/index.ts",
+      "name": "NS",
+      "value": "settings.plugins"
+    }
+  },
+  {
+    "namespace": "settings.sessionLog",
+    "file": "packages/client/ui-settings-session-log/src/client/index.ts",
+    "call": "locale, { en, zh }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-settings-session-log/src/client/index.ts",
+      "name": "locale",
+      "value": "settings.sessionLog"
+    }
+  },
+  {
+    "namespace": "settings.shell",
+    "file": "packages/client/ui-settings-shell/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-settings-shell/src/client/index.ts",
+      "name": "NS",
+      "value": "settings.shell"
+    }
+  },
+  {
+    "namespace": "settings.subagent",
+    "file": "packages/client/ui-settings-subagent/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-settings-subagent/src/client/index.ts",
+      "name": "NS",
+      "value": "settings.subagent"
+    }
+  },
+  {
+    "namespace": "settings.webSearch",
+    "file": "packages/client/ui-settings-web-search/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-settings-web-search/src/client/index.ts",
+      "name": "NS",
+      "value": "settings.webSearch"
+    }
+  },
+  {
+    "namespace": "shortcuts",
+    "file": "packages/client/ui-shortcuts/src/client/index.ts",
+    "call": "'shortcuts', { zh, en }",
+    "namespaceRef": {
+      "kind": "literal",
+      "value": "shortcuts"
+    }
+  },
+  {
+    "namespace": "sidebarBrowser",
+    "file": "packages/client/ui-sidebar-browser/src/client/index.ts",
+    "call": "namespace, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-sidebar-browser/src/client/index.ts",
+      "name": "namespace",
+      "value": "sidebarBrowser"
+    }
+  },
+  {
+    "namespace": "sidebarCodePreview",
+    "file": "packages/client/ui-sidebar-documentpreview/src/client/code/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-sidebar-documentpreview/src/client/code/index.ts",
+      "name": "NS",
+      "value": "sidebarCodePreview"
+    }
+  },
+  {
+    "namespace": "sidebarExcel",
+    "file": "packages/client/ui-sidebar-documentpreview/src/client/excel/index.ts",
+    "call": "'sidebarExcel', { zh, en }",
+    "namespaceRef": {
+      "kind": "literal",
+      "value": "sidebarExcel"
+    }
+  },
+  {
+    "namespace": "documentHtml",
+    "file": "packages/client/ui-sidebar-documentpreview/src/client/html/index.ts",
+    "call": "'documentHtml', { zh, en }",
+    "namespaceRef": {
+      "kind": "literal",
+      "value": "documentHtml"
+    }
+  },
+  {
+    "namespace": "sidebarImage",
+    "file": "packages/client/ui-sidebar-documentpreview/src/client/image/index.ts",
+    "call": "'sidebarImage', { zh, en }",
+    "namespaceRef": {
+      "kind": "literal",
+      "value": "sidebarImage"
+    }
+  },
+  {
+    "namespace": "sidebarDocumentPreview",
+    "file": "packages/client/ui-sidebar-documentpreview/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-sidebar-documentpreview/src/client/index.ts",
+      "name": "NS",
+      "value": "sidebarDocumentPreview"
+    }
+  },
+  {
+    "namespace": "documentMarkdown",
+    "file": "packages/client/ui-sidebar-documentpreview/src/client/markdown/index.ts",
+    "call": "'documentMarkdown', { zh, en }",
+    "namespaceRef": {
+      "kind": "literal",
+      "value": "documentMarkdown"
+    }
+  },
+  {
+    "namespace": "sidebarOffice",
+    "file": "packages/client/ui-sidebar-documentpreview/src/client/office/index.ts",
+    "call": "'sidebarOffice', { zh, en }",
+    "namespaceRef": {
+      "kind": "literal",
+      "value": "sidebarOffice"
+    }
+  },
+  {
+    "namespace": "sidebarPdf",
+    "file": "packages/client/ui-sidebar-documentpreview/src/client/pdf/index.ts",
+    "call": "'sidebarPdf', { zh, en }",
+    "namespaceRef": {
+      "kind": "literal",
+      "value": "sidebarPdf"
+    }
+  },
+  {
+    "namespace": "sidebarFiles",
+    "file": "packages/client/ui-sidebar-files/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-sidebar-files/src/client/index.ts",
+      "name": "NS",
+      "value": "sidebarFiles"
+    }
+  },
+  {
+    "namespace": "sidebarRight",
+    "file": "packages/client/ui-sidebar-right/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-sidebar-right/src/client/index.ts",
+      "name": "NS",
+      "value": "sidebarRight"
+    }
+  },
+  {
+    "namespace": "sidebarTerminal",
+    "file": "packages/client/ui-sidebar-terminal/src/client/index.ts",
+    "call": "namespace, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-sidebar-terminal/src/client/index.ts",
+      "name": "namespace",
+      "value": "sidebarTerminal"
+    }
+  },
+  {
+    "namespace": "sidebar",
+    "file": "packages/client/ui-sidebar/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-sidebar/src/client/index.ts",
+      "name": "NS",
+      "value": "sidebar"
+    }
+  },
+  {
+    "namespace": "skill",
+    "file": "packages/client/ui-skill/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/client/ui-skill/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "subagent",
+    "file": "packages/client/ui-subagent/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/client/ui-subagent/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "settings.theme",
+    "file": "packages/client/ui-theme/src/client/index.ts",
+    "call": "SETTINGS_NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-theme/src/client/index.ts",
+      "name": "SETTINGS_NS",
+      "value": "settings.theme"
+    }
+  },
+  {
+    "namespace": "trajectory",
+    "file": "packages/client/ui-trajectory/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/client/ui-trajectory/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "question",
+    "file": "packages/client/ui-user-questions/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-user-questions/src/client/index.ts",
+      "name": "NS",
+      "value": "question"
+    }
+  },
+  {
+    "namespace": "workflowRun",
+    "file": "packages/client/ui-workflow-run/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/client/ui-workflow-run/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "workspace",
+    "file": "packages/client/ui-workspace/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "local",
+      "file": "packages/client/ui-workspace/src/client/index.ts",
+      "name": "NS",
+      "value": "workspace"
+    }
+  },
+  {
+    "namespace": "agent-team",
+    "file": "packages/experimental/client-ui-agent-team/src/client/mount.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/experimental/client-ui-agent-team/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "claude-code-mods",
+    "file": "packages/experimental/client-ui-claude-code-mods/src/client/mount.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/experimental/client-ui-claude-code-mods/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "cotTranslation",
+    "file": "packages/experimental/client-ui-cot-translation/src/client/mount.ts",
+    "call": "NS, { en, zh }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/experimental/client-ui-cot-translation/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "voice-input",
+    "file": "packages/experimental/client-ui-voice-input/src/client/mount.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/experimental/client-ui-voice-input/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "inspectorPanel",
+    "file": "packages/experimental/inspector/src/client/bottom/page.tsx",
+    "call": "'inspectorPanel', { zh, en }",
+    "namespaceRef": {
+      "kind": "literal",
+      "value": "inspectorPanel"
+    }
+  },
+  {
+    "namespace": "session-inspector",
+    "file": "packages/experimental/session-inspector/src/client/index.ts",
+    "call": "NS, { en, zh }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/experimental/session-inspector/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "cordis",
+    "file": "packages/extensions/ui-cordis/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/extensions/ui-cordis/src/client/locales.ts",
+      "name": "NS"
+    }
+  },
+  {
+    "namespace": "session-log-download",
+    "file": "packages/session-query/session-log-export/src/client/index.ts",
+    "call": "NS, { zh, en }",
+    "namespaceRef": {
+      "kind": "import",
+      "file": "packages/session-query/session-log-export/src/client/locales.ts",
+      "name": "NS"
+    }
+  }
+]

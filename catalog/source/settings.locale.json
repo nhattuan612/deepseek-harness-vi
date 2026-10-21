@@ -1,0 +1,24 @@
+{
+  "en": {
+    "language.title": "Language"
+  },
+  "zh": {
+    "language.title": "语言"
+  },
+  "registration": "packages/client/locale/src/client/index.ts",
+  "call": "SETTINGS_NS, { zh: settingsZh, en: settingsEn }",
+  "namespaceRef": {
+    "kind": "local",
+    "file": "packages/client/locale/src/client/index.ts",
+    "name": "SETTINGS_NS",
+    "value": "settings.locale"
+  },
+  "sources": {
+    "zh": "packages/client/locale/src/locales/settings.ts",
+    "en": "packages/client/locale/src/locales/settings.ts"
+  },
+  "exports": {
+    "en": "settingsEn",
+    "zh": "settingsZh"
+  }
+}

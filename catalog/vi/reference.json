@@ -1,0 +1,17 @@
+{
+  "section.files": "Tệp & thư mục",
+  "section.subagents": "Subagent",
+  "section.sessions": "Phiên làm việc",
+  "candidate.noCwd": "(không có thư mục làm việc)",
+  "crumb.root": "Không gian làm việc",
+  "fileOpen.title": "Không thể mở tệp",
+  "fileOpen.failed": "Không thể mở “{path}”. Vui lòng thử lại hoặc đóng thông báo này.",
+  "fileOpen.close": "Đóng",
+  "fileOpen.retry": "Thử lại",
+  "time.now": "vừa xong",
+  "time.minutes": "{n} phút",
+  "time.hours": "{n} giờ",
+  "time.days": "{n} ngày",
+  "time.months": "{n} tháng",
+  "time.years": "{n} năm"
+}

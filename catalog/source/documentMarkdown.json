@@ -1,0 +1,28 @@
+{
+  "en": {
+    "viewer.label": "Markdown",
+    "code.copy": "Copy",
+    "code.copied": "Copied",
+    "footnotes": "Footnotes"
+  },
+  "zh": {
+    "viewer.label": "Markdown",
+    "code.copy": "复制",
+    "code.copied": "已复制",
+    "footnotes": "脚注"
+  },
+  "registration": "packages/client/ui-sidebar-documentpreview/src/client/markdown/index.ts",
+  "call": "'documentMarkdown', { zh, en }",
+  "namespaceRef": {
+    "kind": "literal",
+    "value": "documentMarkdown"
+  },
+  "sources": {
+    "zh": "packages/client/ui-sidebar-documentpreview/src/client/markdown/locales.ts",
+    "en": "packages/client/ui-sidebar-documentpreview/src/client/markdown/locales.ts"
+  },
+  "exports": {
+    "en": "en",
+    "zh": "zh"
+  }
+}

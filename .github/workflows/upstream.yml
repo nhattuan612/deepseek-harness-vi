@@ -1,0 +1,20 @@
+name: Upstream locale drift
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * *'
+
+jobs:
+  drift:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
+      - uses: actions/checkout@v4
+        with:
+          repository: deepseek-ai/deepseek-harness
+          ref: master
+          path: upstream
+      - run: bun run check:upstream -- upstream
+      - run: bun run check:docs -- upstream

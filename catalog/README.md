@@ -1,0 +1,1 @@
+`source/` stores the English and Chinese dictionaries read from upstream. `vi/` has one Vietnamese dictionary per locale namespace; `vi.json` is generated from those files. `source-map.json` and `registrations.json` pin the source exports and registration call sites used by the upstream drift check.

@@ -1,0 +1,16 @@
+{
+  "title": "Trình bao lệnh",
+  "description": "Giới hạn thời gian mỗi lệnh có thể chạy và dung lượng đầu ra tối đa.",
+  "timeoutMs": "Thời gian chờ lệnh (ms)",
+  "timeoutMsHint": "Thời gian một lệnh được phép chạy trước khi bị chấm dứt.",
+  "maxOutputBytes": "Giới hạn đầu ra cho mỗi luồng (byte)",
+  "maxOutputBytesHint": "Phần đầu ra vượt quá giới hạn này sẽ được chuyển vào tệp tạm thời thay vì bị mất.",
+  "overridden": "Đã ghi đè",
+  "reset": "Đặt lại về mặc định",
+  "readOnly": "Bản triển khai này lưu trữ cài đặt ở chế độ chỉ đọc.",
+  "unavailable": "Plugin này chưa được tải nên hiện không thể cấu hình.",
+  "save": "Lưu",
+  "saving": "Đang lưu…",
+  "saveFailed": "Bản triển khai không chấp nhận các giá trị này; chúng được giữ lại để bạn chỉnh sửa.",
+  "invalidNumber": "Nhập một số, hoặc để trống để dùng giá trị mặc định."
+}

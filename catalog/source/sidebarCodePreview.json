@@ -1,0 +1,28 @@
+{
+  "en": {
+    "title": "Code",
+    "copy": "Copy",
+    "copied": "Copied"
+  },
+  "zh": {
+    "title": "代码",
+    "copy": "复制",
+    "copied": "已复制"
+  },
+  "registration": "packages/client/ui-sidebar-documentpreview/src/client/code/index.ts",
+  "call": "NS, { zh, en }",
+  "namespaceRef": {
+    "kind": "local",
+    "file": "packages/client/ui-sidebar-documentpreview/src/client/code/index.ts",
+    "name": "NS",
+    "value": "sidebarCodePreview"
+  },
+  "sources": {
+    "zh": "packages/client/ui-sidebar-documentpreview/src/client/code/locales.ts",
+    "en": "packages/client/ui-sidebar-documentpreview/src/client/code/locales.ts"
+  },
+  "exports": {
+    "en": "en",
+    "zh": "zh"
+  }
+}

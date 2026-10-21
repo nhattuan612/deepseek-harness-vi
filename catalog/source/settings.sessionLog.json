@@ -1,0 +1,30 @@
+{
+  "en": {
+    "title": "Upload Session Log when using the official model API",
+    "description": "Help improve DeepSeek models and products.",
+    "saved": "Preference saved",
+    "failed": "Could not save preference"
+  },
+  "zh": {
+    "title": "在使用官方模型 API 时上传 Session Log",
+    "description": "帮助改进 DeepSeek 模型与产品",
+    "saved": "设置已保存",
+    "failed": "无法保存设置"
+  },
+  "registration": "packages/client/ui-settings-session-log/src/client/index.ts",
+  "call": "locale, { en, zh }",
+  "namespaceRef": {
+    "kind": "local",
+    "file": "packages/client/ui-settings-session-log/src/client/index.ts",
+    "name": "locale",
+    "value": "settings.sessionLog"
+  },
+  "sources": {
+    "en": "packages/client/ui-settings-session-log/src/client/locales.ts",
+    "zh": "packages/client/ui-settings-session-log/src/client/locales.ts"
+  },
+  "exports": {
+    "en": "en",
+    "zh": "zh"
+  }
+}

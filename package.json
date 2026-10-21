@@ -1,0 +1,35 @@
+{
+  "name": "deepseek-harness-vi",
+  "version": "0.1.0",
+  "description": "Vietnamese language pack and guides for DeepSeek Harness",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./src/client/index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=22",
+    "dsh": ">=0.2.1-rc.2 <0.3.0"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-client-locale": ">=0.2.1-rc.2 <0.3.0"
+  },
+  "dsh": {
+    "client": {
+      "inject": ["@deepseek-ai/dsh-client-locale"],
+      "platform": "web"
+    }
+  },
+  "license": "MIT",
+  "repository": "git+https://github.com/nhattuan612/deepseek-harness-vi.git",
+  "files": ["index.js", "src/client/index.js", "catalog/vi.json", "locale/*.json", "docs/vi"],
+  "scripts": {
+    "build:catalog": "bun scripts/build-catalog.mjs",
+    "check": "bun scripts/build-catalog.mjs --check && bun scripts/test-plugin.mjs",
+    "check:upstream": "bun scripts/check-upstream.mjs",
+    "check:docs": "bun scripts/check-docs.mjs"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "en": {
+    "toggle": "Toggle left sidebar"
+  },
+  "zh": {
+    "toggle": "展开／收起左侧栏"
+  },
+  "registration": "packages/client/ui-layout/src/client/index.ts",
+  "call": "'shortcuts.layout', { zh, en }",
+  "namespaceRef": {
+    "kind": "literal",
+    "value": "shortcuts.layout"
+  },
+  "sources": {
+    "zh": "packages/client/ui-layout/src/client/shortcut-locales.ts",
+    "en": "packages/client/ui-layout/src/client/shortcut-locales.ts"
+  },
+  "exports": {
+    "en": "en",
+    "zh": "zh"
+  }
+}

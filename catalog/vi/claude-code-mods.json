@@ -1,0 +1,6 @@
+{
+  "band": "Claude Code mods",
+  "pressing": "Đang xử lý…",
+  "press.failed": "Nút bấm thất bại: {message}",
+  "press.stale": "Nút đó thuộc về lần vẽ trước; thanh công cụ đã được làm mới"
+}

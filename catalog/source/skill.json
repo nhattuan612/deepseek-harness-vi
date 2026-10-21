@@ -1,0 +1,37 @@
+{
+  "en": {
+    "row.title": "Skill",
+    "row.running": "Loading skill",
+    "row.preparing": "Preparing to load a skill",
+    "row.failed": "Skill load failed",
+    "row.stopped": "Skill load stopped",
+    "row.instructions": "Instructions",
+    "row.inspect": "Inspect",
+    "menu.userOnly": "user-only"
+  },
+  "zh": {
+    "row.title": "加载技能",
+    "row.running": "正在加载 skill",
+    "row.preparing": "准备加载技能",
+    "row.failed": "skill 加载失败",
+    "row.stopped": "skill 加载已中止",
+    "row.instructions": "说明",
+    "row.inspect": "查看",
+    "menu.userOnly": "仅用户"
+  },
+  "registration": "packages/client/ui-skill/src/client/index.ts",
+  "call": "NS, { zh, en }",
+  "namespaceRef": {
+    "kind": "import",
+    "file": "packages/client/ui-skill/src/client/locales.ts",
+    "name": "NS"
+  },
+  "sources": {
+    "zh": "packages/client/ui-skill/src/client/locales.ts",
+    "en": "packages/client/ui-skill/src/client/locales.ts"
+  },
+  "exports": {
+    "en": "en",
+    "zh": "zh"
+  }
+}

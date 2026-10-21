@@ -1,0 +1,50 @@
+{
+  "en": {
+    "zoomControls": "Zoom controls",
+    "zoomMenu": "Choose zoom",
+    "zoomOut": "Zoom out",
+    "zoomIn": "Zoom in",
+    "zoomFitWidth": "Fit width",
+    "zoomValue": "{percent}%",
+    "title": "PDF",
+    "pageImage": "PDF page {page}",
+    "loading": "Rendering document...",
+    "rendering": "Rendering page…",
+    "failed": "Cannot display PDF: {message}",
+    "password": "This PDF requires a password; password-protected previews are not supported.",
+    "workerFailed": "The PDF rendering process could not continue. Please retry.",
+    "unsupported": "PDF preview requires the complete file contents.",
+    "retry": "Retry"
+  },
+  "zh": {
+    "zoomControls": "缩放控件",
+    "zoomMenu": "选择缩放比例",
+    "zoomOut": "缩小",
+    "zoomIn": "放大",
+    "zoomFitWidth": "适应宽度",
+    "zoomValue": "{percent}%",
+    "title": "PDF",
+    "pageImage": "PDF 第 {page} 页",
+    "loading": "文档渲染中...",
+    "rendering": "正在绘制页面…",
+    "failed": "无法显示 PDF：{message}",
+    "password": "此 PDF 需要密码，暂不支持预览",
+    "workerFailed": "PDF 渲染进程无法继续，请重试",
+    "unsupported": "PDF 预览需要完整文件内容",
+    "retry": "重试"
+  },
+  "registration": "packages/client/ui-sidebar-documentpreview/src/client/pdf/index.ts",
+  "call": "'sidebarPdf', { zh, en }",
+  "namespaceRef": {
+    "kind": "literal",
+    "value": "sidebarPdf"
+  },
+  "sources": {
+    "zh": "packages/client/ui-sidebar-documentpreview/src/client/pdf/locales.ts",
+    "en": "packages/client/ui-sidebar-documentpreview/src/client/pdf/locales.ts"
+  },
+  "exports": {
+    "en": "en",
+    "zh": "zh"
+  }
+}

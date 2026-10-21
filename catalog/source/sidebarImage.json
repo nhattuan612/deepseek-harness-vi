@@ -1,0 +1,42 @@
+{
+  "en": {
+    "zoomControls": "Zoom controls",
+    "zoomMenu": "Choose zoom",
+    "zoomOut": "Zoom out",
+    "zoomIn": "Zoom in",
+    "zoomFitWidth": "Fit width",
+    "zoomValue": "{percent}%",
+    "title": "Image",
+    "preview": "Image preview: {name}",
+    "loading": "Rendering document...",
+    "failed": "This image could not be displayed.",
+    "unsupported": "Image preview requires the complete file contents."
+  },
+  "zh": {
+    "zoomControls": "缩放控件",
+    "zoomMenu": "选择缩放比例",
+    "zoomOut": "缩小",
+    "zoomIn": "放大",
+    "zoomFitWidth": "适应宽度",
+    "zoomValue": "{percent}%",
+    "title": "图片",
+    "preview": "图片预览：{name}",
+    "loading": "文档渲染中...",
+    "failed": "无法显示这张图片",
+    "unsupported": "图片预览需要完整文件内容"
+  },
+  "registration": "packages/client/ui-sidebar-documentpreview/src/client/image/index.ts",
+  "call": "'sidebarImage', { zh, en }",
+  "namespaceRef": {
+    "kind": "literal",
+    "value": "sidebarImage"
+  },
+  "sources": {
+    "zh": "packages/client/ui-sidebar-documentpreview/src/client/image/locales.ts",
+    "en": "packages/client/ui-sidebar-documentpreview/src/client/image/locales.ts"
+  },
+  "exports": {
+    "en": "en",
+    "zh": "zh"
+  }
+}

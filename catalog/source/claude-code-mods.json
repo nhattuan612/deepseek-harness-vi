@@ -1,0 +1,29 @@
+{
+  "en": {
+    "band": "Claude Code mods",
+    "pressing": "Working…",
+    "press.failed": "The button failed: {message}",
+    "press.stale": "That button belonged to an earlier drawing; the band has refreshed"
+  },
+  "zh": {
+    "band": "Claude Code 模组",
+    "pressing": "正在处理…",
+    "press.failed": "按钮操作失败：{message}",
+    "press.stale": "该按钮属于更早的绘制，面板已刷新"
+  },
+  "registration": "packages/experimental/client-ui-claude-code-mods/src/client/mount.ts",
+  "call": "NS, { zh, en }",
+  "namespaceRef": {
+    "kind": "import",
+    "file": "packages/experimental/client-ui-claude-code-mods/src/client/locales.ts",
+    "name": "NS"
+  },
+  "sources": {
+    "zh": "packages/experimental/client-ui-claude-code-mods/src/client/locales.ts",
+    "en": "packages/experimental/client-ui-claude-code-mods/src/client/locales.ts"
+  },
+  "exports": {
+    "en": "en",
+    "zh": "zh"
+  }
+}

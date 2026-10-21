@@ -1,0 +1,24 @@
+{
+  "en": {
+    "badge.label": "1017"
+  },
+  "zh": {
+    "badge.label": "1017"
+  },
+  "registration": "packages/client/ui-deepseek-model-label-1017/src/client/index.ts",
+  "call": "namespace, { zh, en }",
+  "namespaceRef": {
+    "kind": "local",
+    "file": "packages/client/ui-deepseek-model-label-1017/src/client/index.ts",
+    "name": "namespace",
+    "value": "deepseek-model-label-1017"
+  },
+  "sources": {
+    "zh": "packages/client/ui-deepseek-model-label-1017/src/client/locales.ts",
+    "en": "packages/client/ui-deepseek-model-label-1017/src/client/locales.ts"
+  },
+  "exports": {
+    "en": "en",
+    "zh": "zh"
+  }
+}

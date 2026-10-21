@@ -1,0 +1,30 @@
+{
+  "en": {
+    "title": "NodeJS Inspector",
+    "toggle": "Toggle NodeJS Inspector",
+    "close": "Collapse",
+    "resize": "Resize NodeJS Inspector panel",
+    "frameTitle": "NodeJS Inspector"
+  },
+  "zh": {
+    "title": "NodeJS 诊断",
+    "toggle": "展开或收起 NodeJS 诊断",
+    "close": "收起",
+    "resize": "调整 NodeJS 诊断面板高度",
+    "frameTitle": "NodeJS 诊断"
+  },
+  "registration": "packages/experimental/inspector/src/client/bottom/page.tsx",
+  "call": "'inspectorPanel', { zh, en }",
+  "namespaceRef": {
+    "kind": "literal",
+    "value": "inspectorPanel"
+  },
+  "sources": {
+    "zh": "packages/experimental/inspector/src/client/bottom/locales.ts",
+    "en": "packages/experimental/inspector/src/client/bottom/locales.ts"
+  },
+  "exports": {
+    "en": "en",
+    "zh": "zh"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Bảng tính",
+  "language": "vi",
+  "loading": "Đang hiển thị tài liệu...",
+  "invalid": "Không thể mở bảng tính này. Hãy kiểm tra định dạng, nội dung hoặc mật khẩu bảo vệ.",
+  "tooLarge": "Bảng tính này vượt quá giới hạn kích thước xem trước.",
+  "timeout": "Quá thời gian mở bảng tính. Hãy thử lại với tệp nhỏ hơn.",
+  "encoding": "Không thể đọc mã hóa văn bản này. Hãy lưu tệp dưới dạng UTF-8 hoặc UTF-16 có BOM rồi thử lại.",
+  "formulaWarning": "Bảng tính này chứa công thức. Kết quả hiển thị có thể bị thiếu hoặc không chính xác.",
+  "unsupportedNotice": "Bản xem trước này không hỗ trợ {features} trong bảng tính. Hãy mở bằng ứng dụng hệ thống để có trải nghiệm đầy đủ.",
+  "charts": "biểu đồ",
+  "images": "hình ảnh",
+  "shapes": "hình khối",
+  "conditionalFormatting": "định dạng có điều kiện",
+  "featureSeparator": ", ",
+  "retry": "Thử lại"
+}
