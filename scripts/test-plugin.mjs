@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict'
 import { readFile } from 'node:fs/promises'
+import { apply as applyHost } from '../index.js'
 import { apply } from '../src/client/index.js'
 import dictionaries from '../catalog/vi.json' with { type: 'json' }
 
@@ -8,6 +9,7 @@ assert.equal(manifest.dsh.bundle.patch, './cordis.patch.yml')
 assert.ok(manifest.files.includes('cordis.patch.yml'))
 assert.equal(manifest.exports['./cordis.patch.yml'], './cordis.patch.yml')
 assert.match(await readFile(new URL('../cordis.patch.yml', import.meta.url), 'utf8'), /name: deepseek-harness-vi/)
+assert.doesNotThrow(() => applyHost({}))
 
 function harness(failAt = Infinity) {
   const registered = []
